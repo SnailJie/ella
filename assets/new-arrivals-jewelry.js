@@ -2,10 +2,10 @@
 class NewArrivalsJewelry {
   constructor(container) {
     this.container = container;
-    this.carousel = container.querySelector('.products-carousel');
-    this.arrows = container.querySelectorAll('.carousel-arrow');
-    this.dots = container.querySelector('.carousel-dots');
-    this.items = container.querySelectorAll('.product-item');
+    this.carousel = container.querySelector('.new-arrivals-products-carousel');
+    this.arrows = container.querySelectorAll('.new-arrivals-carousel-arrow');
+    this.dots = container.querySelector('.new-arrivals-carousel-dots');
+    this.items = container.querySelectorAll('.new-arrivals-product-item');
     this.currentIndex = 0;
     this.autoplay = this.carousel.dataset.autoplay === 'true';
     this.autoplaySpeed = parseInt(this.carousel.dataset.autoplaySpeed) || 5;
@@ -74,7 +74,7 @@ class NewArrivalsJewelry {
     const totalSlides = Math.ceil(this.items.length / this.getVisibleCount());
     for (let i = 0; i < totalSlides; i++) {
       const dot = document.createElement('button');
-      dot.className = 'carousel-dot';
+      dot.className = 'new-arrivals-carousel-dot';
       dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
       dot.addEventListener('click', () => this.goToSlide(i));
       this.dots.appendChild(dot);
@@ -98,7 +98,7 @@ class NewArrivalsJewelry {
   }
 
   setupQuickView() {
-    const quickViewButtons = this.container.querySelectorAll('.quick-view-btn');
+    const quickViewButtons = this.container.querySelectorAll('.new-arrivals-quick-view-btn');
     
     quickViewButtons.forEach(button => {
       button.addEventListener('click', (e) => {
@@ -110,7 +110,7 @@ class NewArrivalsJewelry {
   }
 
   setupWishlist() {
-    const wishlistButtons = this.container.querySelectorAll('.add-to-wishlist-btn');
+    const wishlistButtons = this.container.querySelectorAll('.new-arrivals-add-to-wishlist-btn');
     
     wishlistButtons.forEach(button => {
       button.addEventListener('click', (e) => {
@@ -139,7 +139,7 @@ class NewArrivalsJewelry {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-in');
+          entry.target.classList.add('new-arrivals-animate-in');
         }
       });
     }, {
@@ -199,7 +199,7 @@ class NewArrivalsJewelry {
   updateDots() {
     if (!this.dots) return;
 
-    const dots = this.dots.querySelectorAll('.carousel-dot');
+    const dots = this.dots.querySelectorAll('.new-arrivals-carousel-dot');
     dots.forEach((dot, index) => {
       dot.classList.toggle('active', index === this.currentIndex);
     });
@@ -257,7 +257,7 @@ class NewArrivalsJewelry {
     console.log('Opening quick view for product:', productId);
     
     // 示例：触发自定义事件
-    const event = new CustomEvent('quick-view-open', {
+    const event = new CustomEvent('new-arrivals-quick-view-open', {
       detail: { productId: productId }
     });
     document.dispatchEvent(event);
@@ -272,7 +272,7 @@ class NewArrivalsJewelry {
     button.classList.toggle('active');
     
     // 示例：触发自定义事件
-    const event = new CustomEvent('wishlist-toggle', {
+    const event = new CustomEvent('new-arrivals-wishlist-toggle', {
       detail: { 
         productId: productId,
         added: button.classList.contains('active')

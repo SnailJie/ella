@@ -4,6 +4,7 @@
   padding: 80px 0;
   position: relative;
   overflow: hidden;
+  isolation: isolate; /* 创建新的层叠上下文 */
 }
 
 .new-arrivals-jewelry::before {
@@ -15,23 +16,24 @@
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--accent-color, #d4af37), transparent);
   opacity: 0.3;
+  z-index: 1;
 }
 
-/* 容器样式 */
-.new-arrivals-jewelry .container {
+/* 容器样式 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* 标题区域 */
-.section-header {
+/* 标题区域 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-section-header {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
 }
 
-.section-title {
+.new-arrivals-jewelry .new-arrivals-section-title {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 700;
@@ -42,7 +44,7 @@
   position: relative;
 }
 
-.section-title::after {
+.new-arrivals-jewelry .new-arrivals-section-title::after {
   content: '';
   position: absolute;
   bottom: -8px;
@@ -53,7 +55,7 @@
   background: var(--accent-color, #d4af37);
 }
 
-.section-subtitle {
+.new-arrivals-jewelry .new-arrivals-section-subtitle {
   font-size: 16px;
   color: var(--text-color, #333333);
   opacity: 0.7;
@@ -63,13 +65,13 @@
   text-transform: uppercase;
 }
 
-/* 轮播容器 */
-.products-carousel-wrapper {
+/* 轮播容器 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-products-carousel-wrapper {
   position: relative;
   margin: 0 -15px;
 }
 
-.products-carousel {
+.new-arrivals-jewelry .new-arrivals-products-carousel {
   display: flex;
   gap: 30px;
   overflow: hidden;
@@ -77,14 +79,14 @@
   padding: 20px 0;
 }
 
-/* 产品卡片 */
-.product-item {
+/* 产品卡片 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-product-item {
   flex: 0 0 calc(33.333% - 20px);
   min-width: 300px;
   transition: transform 0.3s ease;
 }
 
-.product-card {
+.new-arrivals-jewelry .new-arrivals-product-card {
   background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
@@ -96,13 +98,13 @@
   flex-direction: column;
 }
 
-.product-card:hover {
+.new-arrivals-jewelry .new-arrivals-product-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
 }
 
-/* 产品图片区域 */
-.product-image-wrapper {
+/* 产品图片区域 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-product-image-wrapper {
   position: relative;
   aspect-ratio: 1;
   overflow: hidden;
@@ -110,25 +112,25 @@
   flex: 1;
 }
 
-.product-link {
+.new-arrivals-jewelry .new-arrivals-product-link {
   display: block;
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.product-image {
+.new-arrivals-jewelry .new-arrivals-product-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
 
-.product-card:hover .product-image {
+.new-arrivals-jewelry .new-arrivals-product-card:hover .new-arrivals-product-image {
   transform: scale(1.05);
 }
 
-.product-image-placeholder {
+.new-arrivals-jewelry .new-arrivals-product-image-placeholder {
   width: 100%;
   height: 100%;
   display: flex;
@@ -137,8 +139,8 @@
   background: #f8f8f8;
 }
 
-/* 悬停效果 */
-.product-hover-overlay {
+/* 悬停效果 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-product-hover-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -152,16 +154,16 @@
   transition: opacity 0.3s ease;
 }
 
-.product-card:hover .product-hover-overlay {
+.new-arrivals-jewelry .new-arrivals-product-card:hover .new-arrivals-product-hover-overlay {
   opacity: 1;
 }
 
-.hover-content {
+.new-arrivals-jewelry .new-arrivals-hover-content {
   text-align: center;
   color: #ffffff;
 }
 
-.view-details {
+.new-arrivals-jewelry .new-arrivals-view-details {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -172,13 +174,13 @@
   transition: all 0.3s ease;
 }
 
-.view-details:hover {
+.new-arrivals-jewelry .new-arrivals-view-details:hover {
   background: #ffffff;
   color: #333333;
 }
 
-/* 产品标签 */
-.product-badge {
+/* 产品标签 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-product-badge {
   position: absolute;
   top: 16px;
   left: 16px;
@@ -191,28 +193,28 @@
   z-index: 2;
 }
 
-.new-badge {
+.new-arrivals-jewelry .new-arrivals-new-badge {
   background: var(--accent-color, #d4af37);
   color: #ffffff;
 }
 
-.sale-badge {
+.new-arrivals-jewelry .new-arrivals-sale-badge {
   background: #e74c3c;
   color: #ffffff;
 }
 
 /* 产品信息 - 隐藏默认显示 */
-.product-info {
+.new-arrivals-jewelry .new-arrivals-product-info {
   display: none;
 }
 
-/* 悬停时显示的产品标题 */
-.product-card:hover .product-title-overlay {
+/* 悬停时显示的产品标题 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-product-card:hover .new-arrivals-product-title-overlay {
   opacity: 1;
   visibility: visible;
 }
 
-.product-title-overlay {
+.new-arrivals-jewelry .new-arrivals-product-title-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -226,7 +228,7 @@
   text-align: center;
 }
 
-.product-title-overlay .product-title {
+.new-arrivals-jewelry .new-arrivals-product-title-overlay .new-arrivals-product-title {
   font-size: 16px;
   font-weight: 600;
   margin: 0;
@@ -234,13 +236,13 @@
   color: #ffffff;
 }
 
-.product-title-overlay .product-title a {
+.new-arrivals-jewelry .new-arrivals-product-title-overlay .new-arrivals-product-title a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* 轮播箭头 */
-.carousel-arrow {
+/* 轮播箭头 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-carousel-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -261,30 +263,30 @@
   visibility: visible;
 }
 
-.carousel-arrow:hover {
+.new-arrivals-jewelry .new-arrivals-carousel-arrow:hover {
   background: var(--accent-color, #d4af37);
   border-color: var(--accent-color, #d4af37);
   color: #ffffff;
   transform: translateY(-50%) scale(1.1);
 }
 
-.carousel-prev {
+.new-arrivals-jewelry .new-arrivals-carousel-prev {
   left: 20px;
 }
 
-.carousel-next {
+.new-arrivals-jewelry .new-arrivals-carousel-next {
   right: 20px;
 }
 
-/* 轮播指示点 */
-.carousel-dots {
+/* 轮播指示点 - 使用更具体的选择器 */
+.new-arrivals-jewelry .new-arrivals-carousel-dots {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-top: 40px;
 }
 
-.carousel-dot {
+.new-arrivals-jewelry .new-arrivals-carousel-dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -293,7 +295,7 @@
   transition: all 0.3s ease;
 }
 
-.carousel-dot.active {
+.new-arrivals-jewelry .new-arrivals-carousel-dot.active {
   background: var(--accent-color, #d4af37);
   transform: scale(1.2);
 }
@@ -304,25 +306,25 @@
     padding: 60px 0;
   }
   
-  .section-title {
+  .new-arrivals-jewelry .new-arrivals-section-title {
     font-size: 40px;
   }
   
-  .product-item {
+  .new-arrivals-jewelry .new-arrivals-product-item {
     flex: 0 0 calc(50% - 15px);
     min-width: 280px;
   }
   
-  .carousel-arrow {
+  .new-arrivals-jewelry .new-arrivals-carousel-arrow {
     width: 40px;
     height: 40px;
   }
   
-  .carousel-prev {
+  .new-arrivals-jewelry .new-arrivals-carousel-prev {
     left: 15px;
   }
   
-  .carousel-next {
+  .new-arrivals-jewelry .new-arrivals-carousel-next {
     right: 15px;
   }
 }
@@ -332,52 +334,52 @@
     padding: 40px 0;
   }
   
-  .section-title {
+  .new-arrivals-jewelry .new-arrivals-section-title {
     font-size: 32px;
   }
   
-  .section-header {
+  .new-arrivals-jewelry .new-arrivals-section-header {
     margin-bottom: 40px;
   }
   
-  .products-carousel {
+  .new-arrivals-jewelry .new-arrivals-products-carousel {
     gap: 20px;
   }
   
-  .product-item {
+  .new-arrivals-jewelry .new-arrivals-product-item {
     flex: 0 0 calc(100% - 10px);
     min-width: 260px;
   }
   
-  .product-info {
+  .new-arrivals-jewelry .new-arrivals-product-info {
     padding: 20px;
   }
   
-  .product-title {
+  .new-arrivals-jewelry .new-arrivals-product-title {
     font-size: 16px;
   }
   
-  .price-regular,
-  .price-sale {
+  .new-arrivals-jewelry .new-arrivals-price-regular,
+  .new-arrivals-jewelry .new-arrivals-price-sale {
     font-size: 18px;
   }
   
-  .carousel-arrow {
+  .new-arrivals-jewelry .new-arrivals-carousel-arrow {
     width: 36px;
     height: 36px;
   }
   
-  .carousel-prev {
+  .new-arrivals-jewelry .new-arrivals-carousel-prev {
     left: 10px;
   }
   
-  .carousel-next {
+  .new-arrivals-jewelry .new-arrivals-carousel-next {
     right: 10px;
   }
 }
 
 /* 动画效果 */
-@keyframes fadeInUp {
+@keyframes newArrivalsFadeInUp {
   from {
     opacity: 0;
     transform: translateY(30px);
@@ -389,21 +391,21 @@
 }
 
 .new-arrivals-jewelry {
-  animation: fadeInUp 0.8s ease-out;
+  animation: newArrivalsFadeInUp 0.8s ease-out;
 }
 
-.product-card {
-  animation: fadeInUp 0.8s ease-out;
+.new-arrivals-jewelry .new-arrivals-product-card {
+  animation: newArrivalsFadeInUp 0.8s ease-out;
   animation-delay: calc(var(--animation-order, 0) * 0.1s);
 }
 
 /* 加载状态 */
-.new-arrivals-jewelry.loading {
+.new-arrivals-jewelry.new-arrivals-loading {
   opacity: 0.7;
   pointer-events: none;
 }
 
-.new-arrivals-jewelry.loading::after {
+.new-arrivals-jewelry.new-arrivals-loading::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -414,10 +416,10 @@
   border: 3px solid #f3f3f3;
   border-top: 3px solid var(--accent-color, #d4af37);
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: newArrivalsSpin 1s linear infinite;
 }
 
-@keyframes spin {
+@keyframes newArrivalsSpin {
   0% { transform: translate(-50%, -50%) rotate(0deg); }
   100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
@@ -428,46 +430,46 @@
     background: #1a1a1a;
   }
   
-  .product-card {
+  .new-arrivals-jewelry .new-arrivals-product-card {
     background: #2a2a2a;
   }
   
-  .product-image-wrapper {
+  .new-arrivals-jewelry .new-arrivals-product-image-wrapper {
     background: #2a2a2a;
   }
   
-  .product-title {
+  .new-arrivals-jewelry .new-arrivals-product-title {
     color: #ffffff;
   }
   
-  .price-regular {
+  .new-arrivals-jewelry .new-arrivals-price-regular {
     color: #ffffff;
   }
   
-  .quick-view-btn,
-  .add-to-wishlist-btn {
-    background: #2a2a2a;
-    border-color: #404040;
-    color: #ffffff;
-  }
-  
-  .carousel-arrow {
+  .new-arrivals-jewelry .new-arrivals-quick-view-btn,
+  .new-arrivals-jewelry .new-arrivals-add-to-wishlist-btn {
     background: #2a2a2a;
     border-color: #404040;
     color: #ffffff;
   }
   
-  .carousel-dot {
+  .new-arrivals-jewelry .new-arrivals-carousel-arrow {
+    background: #2a2a2a;
+    border-color: #404040;
+    color: #ffffff;
+  }
+  
+  .new-arrivals-jewelry .new-arrivals-carousel-dot {
     background: #404040;
   }
 }
 
 /* 无障碍支持 */
 @media (prefers-reduced-motion: reduce) {
-  .product-card,
-  .product-image,
-  .carousel-arrow,
-  .view-details {
+  .new-arrivals-jewelry .new-arrivals-product-card,
+  .new-arrivals-jewelry .new-arrivals-product-image,
+  .new-arrivals-jewelry .new-arrivals-carousel-arrow,
+  .new-arrivals-jewelry .new-arrivals-view-details {
     transition: none;
   }
   
@@ -477,9 +479,9 @@
 }
 
 /* 焦点样式 */
-.carousel-arrow:focus,
-.quick-view-btn:focus,
-.add-to-wishlist-btn:focus {
+.new-arrivals-jewelry .new-arrivals-carousel-arrow:focus,
+.new-arrivals-jewelry .new-arrivals-quick-view-btn:focus,
+.new-arrivals-jewelry .new-arrivals-add-to-wishlist-btn:focus {
   outline: 2px solid var(--accent-color, #d4af37);
   outline-offset: 2px;
 }
@@ -491,8 +493,8 @@
     color: #000000 !important;
   }
   
-  .carousel-arrow,
-  .product-actions {
+  .new-arrivals-jewelry .new-arrivals-carousel-arrow,
+  .new-arrivals-jewelry .new-arrivals-product-actions {
     display: none !important;
   }
 } 
