@@ -15,7 +15,6 @@
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
-            "image_slide": "shopify://shop_images/woman-applying-lip-balm.jpg",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
@@ -116,6 +115,7 @@
       "block_order": [
         "16321237356a896dad-0"
       ],
+      "disabled": true,
       "settings": {
         "container": "fullwidth",
         "padding_full_width": 0,
@@ -185,6 +185,31 @@
         "mg_bottom_mobile": 0
       }
     },
+    "product_category_gallery_EyLTD6": {
+      "type": "product-category-gallery",
+      "blocks": {
+        "category_gGnwNT": {
+          "type": "category",
+          "settings": {
+            "category_name": "Category",
+            "category_handle": "category",
+            "collection_handle": "",
+            "category_link": "",
+            "is_active": false
+          }
+        }
+      },
+      "block_order": [
+        "category_gGnwNT"
+      ],
+      "name": "Product Category Gallery",
+      "settings": {
+        "show_navigation_arrows": true,
+        "show_dots": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_verdura_QdBXfA": {
       "type": "newsletter-verdura",
       "name": "Newsletter Verdura",
@@ -223,31 +248,6 @@
         "mg_bottom_tablet": 60,
         "mg_top_mobile": 40,
         "mg_bottom_mobile": 40
-      }
-    },
-    "product_category_gallery_EyLTD6": {
-      "type": "product-category-gallery",
-      "blocks": {
-        "category_gGnwNT": {
-          "type": "category",
-          "settings": {
-            "category_name": "Category",
-            "category_handle": "category",
-            "collection_handle": "",
-            "category_link": "",
-            "is_active": false
-          }
-        }
-      },
-      "block_order": [
-        "category_gGnwNT"
-      ],
-      "name": "Product Category Gallery",
-      "settings": {
-        "show_navigation_arrows": true,
-        "show_dots": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
