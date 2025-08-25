@@ -219,7 +219,7 @@
       "settings": {
         "minus_spacing_top": 0,
         "minus_spacing_bottom": 0,
-        "mq_background": "",
+        "mq_background": "#f6f3d6",
         "mq_gradient": "",
         "border": "none",
         "border_color": "#000000",
