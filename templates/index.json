@@ -9,13 +9,245 @@
  */
 {
   "sections": {
+    "image_banner_XCKbKg": {
+      "type": "image-banner",
+      "blocks": {
+        "large_img_HRUCkT": {
+          "type": "largeImg",
+          "settings": {
+            "image": "shopify://shop_images/105.webp",
+            "enable_max_width_image": false,
+            "custom_width_image": 1170,
+            "border_radius": 0,
+            "enable_scroll_down": false,
+            "enable_custom_image": false,
+            "image_behavior": "zoom-in",
+            "sub_title": "",
+            "border_sub_title": false,
+            "font_size_sub_title": 14,
+            "font_size_sub_title_mb": 14,
+            "margin_bottom_sub_title": 14,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "700",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#232323",
+            "color_sub_title_mb": "#fff",
+            "heading": "",
+            "special_text": "",
+            "letter_spacing_heading": "",
+            "enable_style_italic": false,
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "600",
+            "color_heading": "#232323",
+            "color_heading_mb": "#fff",
+            "border_title": "border_s1",
+            "border_color_title": "#232323",
+            "border_color_title_mobile": "#fff",
+            "text": "",
+            "font_size_des": 12,
+            "font_size_des_mb": 12,
+            "line_height_des": 26,
+            "margin_bottom_des": 35,
+            "color_des": "#232323",
+            "color_des_mb": "#fff",
+            "countdown": "",
+            "hide_countdown_fc": "countdown",
+            "countdown_style": "round",
+            "countdown_position": "countdown_below_desc",
+            "font_size_countdown_number": 30,
+            "font_size_countdown_text": 14,
+            "color_countdown": "#232323",
+            "color_countdown_mb": "#fff",
+            "countdown_margin_bottom": 35,
+            "content_width": 475,
+            "bg_color_content": "",
+            "align": "center",
+            "align_items": "center",
+            "position": "left",
+            "custom_horizontal": "",
+            "custom_vertical": "",
+            "btn_text": "",
+            "link": "",
+            "btn_icon": "",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#fff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#fff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_text_2": "",
+            "link_2": "",
+            "btn_icon_2": "",
+            "button_color_2": "#fff",
+            "button_border_2": "#232323",
+            "button_background_2": "#232323",
+            "button_background_2_gradient": "",
+            "button_color_hover_2": "#fff",
+            "button_border_hover_2": "#232323",
+            "button_background_hover_2": "#232323",
+            "button_background_gradient_hover_2": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#fff",
+            "bg_color_icon": "#000",
+            "enable_custom_video_icon_position": false,
+            "video_icon_horizontal_position": "",
+            "video_icon_vertical_position": "",
+            "video_icon_horizontal_position_mb": "",
+            "video_icon_vertical_position_mb": ""
+          }
+        }
+      },
+      "block_order": [
+        "large_img_HRUCkT"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "id_section": "",
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "display_type": "slide",
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false,
+        "list_gap": 0,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "marquee_hANGWA": {
+      "type": "marquee",
+      "blocks": {
+        "marquee_Mma9Dg": {
+          "type": "marquee",
+          "settings": {
+            "text": "<p>Alert! Your fingertips are receiving OvO signals: 💖</p>",
+            "color": "#000000",
+            "color_mb": "#000000",
+            "stroke_color": "transparent",
+            "stroke_color_mb": "transparent",
+            "bg_color": "",
+            "border": "none",
+            "border_width": 2,
+            "align_items_spacing_tb": 0,
+            "align_items_spacing_lr": 0,
+            "border_radius": 0,
+            "border_color": "#000000",
+            "icon": "",
+            "icon_width": 70,
+            "icon_width_mb": 70,
+            "icon_height": 45,
+            "icon_height_mb": 45
+          }
+        },
+        "marquee_eFDpzk": {
+          "type": "marquee",
+          "settings": {
+            "text": "<p>Welcome to our store</p>",
+            "color": "#000000",
+            "color_mb": "#000000",
+            "stroke_color": "transparent",
+            "stroke_color_mb": "transparent",
+            "bg_color": "",
+            "border": "none",
+            "border_width": 2,
+            "align_items_spacing_tb": 0,
+            "align_items_spacing_lr": 0,
+            "border_radius": 0,
+            "border_color": "#000000",
+            "icon": "",
+            "icon_width": 70,
+            "icon_width_mb": 70,
+            "icon_height": 45,
+            "icon_height_mb": 45
+          }
+        },
+        "marquee_6NJVMB": {
+          "type": "marquee",
+          "settings": {
+            "text": "<p>Welcome to our store</p>",
+            "color": "#000000",
+            "color_mb": "#000000",
+            "stroke_color": "transparent",
+            "stroke_color_mb": "transparent",
+            "bg_color": "",
+            "border": "none",
+            "border_width": 2,
+            "align_items_spacing_tb": 0,
+            "align_items_spacing_lr": 0,
+            "border_radius": 0,
+            "border_color": "#000000",
+            "icon": "",
+            "icon_width": 70,
+            "icon_width_mb": 70,
+            "icon_height": 45,
+            "icon_height_mb": 45
+          }
+        }
+      },
+      "block_order": [
+        "marquee_Mma9Dg",
+        "marquee_eFDpzk",
+        "marquee_6NJVMB"
+      ],
+      "name": "t:sections.marquee.presets.name",
+      "settings": {
+        "minus_spacing_top": 0,
+        "minus_spacing_bottom": 0,
+        "mq_background": "",
+        "mq_gradient": "",
+        "border": "none",
+        "border_color": "#000000",
+        "type_tab_font": "font_1",
+        "text_size": 17,
+        "text_line_height": 40,
+        "text_font_weight": "400",
+        "text_letter_spacing": "",
+        "gap_blocks": 20,
+        "icon": "thunder",
+        "icon_color": "#000000",
+        "text_size_mb": 30,
+        "text_line_height_mb": 30,
+        "border_color_mb": "#000000",
+        "icon_color_mb": "#000000",
+        "mg_top_desktop": 20,
+        "mg_top_tablet": 20,
+        "mg_top_mobile": 20,
+        "mg_bottom_desktop": 20,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20
+      }
+    },
     "16321237356a896dad": {
       "type": "slide-show",
       "blocks": {
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
-            "image_slide": "shopify://shop_images/woman-applying-lip-balm.jpg",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
@@ -185,6 +417,31 @@
         "mg_bottom_mobile": 0
       }
     },
+    "product_category_gallery_EyLTD6": {
+      "type": "product-category-gallery",
+      "blocks": {
+        "category_gGnwNT": {
+          "type": "category",
+          "settings": {
+            "category_name": "Category",
+            "category_handle": "category",
+            "collection_handle": "",
+            "category_link": "",
+            "is_active": false
+          }
+        }
+      },
+      "block_order": [
+        "category_gGnwNT"
+      ],
+      "name": "Product Category Gallery",
+      "settings": {
+        "show_navigation_arrows": true,
+        "show_dots": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_verdura_QdBXfA": {
       "type": "newsletter-verdura",
       "name": "Newsletter Verdura",
@@ -224,34 +481,11 @@
         "mg_top_mobile": 40,
         "mg_bottom_mobile": 40
       }
-    },
-    "product_category_gallery_EyLTD6": {
-      "type": "product-category-gallery",
-      "blocks": {
-        "category_gGnwNT": {
-          "type": "category",
-          "settings": {
-            "category_name": "Category",
-            "category_handle": "category",
-            "collection_handle": "",
-            "category_link": "",
-            "is_active": false
-          }
-        }
-      },
-      "block_order": [
-        "category_gGnwNT"
-      ],
-      "name": "Product Category Gallery",
-      "settings": {
-        "show_navigation_arrows": true,
-        "show_dots": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "image_banner_XCKbKg",
+    "marquee_hANGWA",
     "16321237356a896dad",
     "product_category_gallery_EyLTD6",
     "newsletter_verdura_QdBXfA",

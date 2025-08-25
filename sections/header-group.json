@@ -71,6 +71,7 @@
         "a2e4ea2e-73e5-4452-8129-d86dbbae584d": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/logo.jpg",
             "logo_width": 90,
             "logo_text": "",
             "logo_font_size": 30,
@@ -127,6 +128,7 @@
         "5939cbc0-a9fd-48e0-adcd-1d945e05dc99",
         "04e85927-4a9b-4543-93b7-cf1b32370bd4"
       ],
+      "disabled": true,
       "settings": {
         "container": "default",
         "padding_full_width": 0,
@@ -421,6 +423,73 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "header_utility_QKy3a8": {
+      "type": "header-utility",
+      "blocks": {
+        "logo_7bDKGE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo.jpg",
+            "logo_width": 90,
+            "logo_text": "",
+            "logo_font_size": 30,
+            "logo_font_weight": "900",
+            "logo_text_transform": "uppercase",
+            "logo_color": "#232323"
+          }
+        },
+        "text_RrEaK6": {
+          "type": "text",
+          "settings": {
+            "customer_service_text": "<ul><li><a href='collections/all'>Shop</a></li><li><a href='collections/all'>Inspiration</a></li><li><a href='collections/all'>About</a></li></ul>",
+            "text_color": "#2d2d2d"
+          }
+        },
+        "search_RixF4d": {
+          "type": "search",
+          "settings": {
+            "search_color": "#a5a5a5",
+            "bg_search_color": "#f6f6f6",
+            "search_icon_color": "#000000",
+            "search_border_radius": 5
+          }
+        },
+        "function_group_4pVPBz": {
+          "type": "function_group",
+          "settings": {
+            "show_customer": true,
+            "customer_color": "#232323",
+            "show_wishlist": true,
+            "wishlist_color": "#232323",
+            "show_wishlist_number": false,
+            "wishlist_color_item": "#ffffff",
+            "wishlist_bg_item": "#232323",
+            "show_cart": true,
+            "cart_color": "#232323",
+            "cart_color_item": "#ffffff",
+            "cart_bg_item": "#000000",
+            "cart_item_font_size": 12,
+            "show_language_currency": true,
+            "language_currency_color": "#232323"
+          }
+        }
+      },
+      "block_order": [
+        "logo_7bDKGE",
+        "text_RrEaK6",
+        "search_RixF4d",
+        "function_group_4pVPBz"
+      ],
+      "name": "Header - Utility",
+      "settings": {
+        "container": "1770",
+        "padding_full_width": 0,
+        "header_bg": "#ffffff",
+        "header_bg_gradient": "",
+        "padding_top": 18,
+        "padding_bottom": 1
+      }
     }
   },
   "order": [
@@ -428,6 +497,7 @@
     "header_verdura_kQeQLE",
     "header-classic",
     "9c03747e-b054-4db8-8194-5a35c71f82ca",
-    "header-mobile"
+    "header-mobile",
+    "header_utility_QKy3a8"
   ]
 }
