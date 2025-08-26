@@ -615,11 +615,17 @@
         "mg_top_mobile": 40,
         "mg_bottom_mobile": 40
       }
+    },
+    "main_product_full_width_home": {
+      "type": "main-product-full-width",
+      "name": "Main Product Full Width (Home)",
+      "settings": {}
     }
   },
   "order": [
     "16321237356a896dad",
     "marquee_hANGWA",
+    "main_product_full_width_home",
     "new_arrivals_jewelry_d6ByHn",
     "product_category_gallery_EyLTD6",
     "spotlight_block_fyEgQ3",
