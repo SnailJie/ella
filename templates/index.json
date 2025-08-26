@@ -296,7 +296,7 @@
         "title": "New Arrivals",
         "subtitle": "Discover our latest  collection",
         "collection": "fall",
-        "product_limit": 6,
+        "product_limit": 4,
         "show_arrows": true,
         "show_dots": true,
         "autoplay": false,
@@ -310,119 +310,6 @@
         "mg_bottom_tablet": 60,
         "mg_top_mobile": 40,
         "mg_bottom_mobile": 40
-      }
-    },
-    "instagram_special_E8HYj3": {
-      "type": "instagram-special",
-      "blocks": {
-        "instagram_GkK6aJ": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_4yCUEt": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_BYXCDU": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_DbhmTr": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_4kXzHN": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_YkykEb": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_KyzA3W": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_aFzxqb": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        },
-        "instagram_RqWwnX": {
-          "type": "instagram",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "instagram_GkK6aJ",
-        "instagram_4yCUEt",
-        "instagram_BYXCDU",
-        "instagram_DbhmTr",
-        "instagram_4kXzHN",
-        "instagram_YkykEb",
-        "instagram_KyzA3W",
-        "instagram_aFzxqb",
-        "instagram_RqWwnX"
-      ],
-      "name": "t:sections.instagram_special.presets.name",
-      "settings": {
-        "container": "container",
-        "padding_full_width": 0,
-        "display_border_top": false,
-        "border_color": "#e3e3e3",
-        "instagram_bg": "#fafafa",
-        "instagram_bg_gradient": "",
-        "instagram_title": "#Ella On Instagram",
-        "color_title": "#232323",
-        "fontsize_title": 16,
-        "fontsize_title_mb": 16,
-        "margin_bottom_title": 5,
-        "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
-        "color_des": "#3c3c3c",
-        "fontsize_des": 16,
-        "margin_bottom_des": 0,
-        "title_align": "center",
-        "display_instagram_button": true,
-        "instagram_button_text": "View Gallery",
-        "type_button_more": "load",
-        "instagram_button_link": "",
-        "color_button": "#fff",
-        "border_color_button": "#232323",
-        "bg_color_button": "#232323",
-        "bg_color_gradient_button": "",
-        "maxwidth_button": 80,
-        "instagram_style": "layout__1",
-        "instagram_grid_gap": 15,
-        "items_border_radius": 6,
-        "type_instagram_by_gallery": "popup_image",
-        "display_icon_more": true,
-        "icon_color": "#fff",
-        "border_color_icon": "#232323",
-        "bg_color_icon": "#232323",
-        "bg_color_gradient_icon": "",
-        "mg_top_desktop": 50,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
-        "mg_bottom_desktop": 50,
-        "mg_bottom_tablet": 50,
-        "mg_bottom_mobile": 50
       }
     },
     "product_category_gallery_EyLTD6": {
@@ -473,7 +360,6 @@
     "16321237356a896dad",
     "marquee_hANGWA",
     "new_arrivals_jewelry_d6ByHn",
-    "instagram_special_E8HYj3",
     "product_category_gallery_EyLTD6",
     "newsletter_verdura_QdBXfA"
   ]
