@@ -324,10 +324,21 @@
             "category_link": "",
             "is_active": false
           }
+        },
+        "category_8bifRL": {
+          "type": "category",
+          "settings": {
+            "category_name": "Category",
+            "category_handle": "category",
+            "collection_handle": "collection-three",
+            "category_link": "",
+            "is_active": false
+          }
         }
       },
       "block_order": [
-        "category_gGnwNT"
+        "category_gGnwNT",
+        "category_8bifRL"
       ],
       "name": "Product Category Gallery",
       "settings": {
