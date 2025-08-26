@@ -15,7 +15,7 @@
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
-            "image_slide": "shopify://shop_images/Google_AI_Studio_2025-08-26T09_28_49.584Z.png",
+            "image_slide": "shopify://shop_images/Google_AI_Studio_2025-08-26T09_28_49.584Z_d0c49e92-3df0-4704-afd2-635bdfb78ec8.png",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
@@ -117,7 +117,7 @@
         "16321237356a896dad-0"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "1170",
         "padding_full_width": 0,
         "slideshow_background": "",
         "slideshow_background_gradient": "",
