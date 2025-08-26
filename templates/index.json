@@ -15,7 +15,7 @@
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
-            "image_slide": "shopify://shop_images/1.png",
+            "image_slide": "shopify://shop_images/zx.png",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
@@ -119,7 +119,7 @@
       "settings": {
         "container": "1170",
         "padding_full_width": 0,
-        "slideshow_background": "#FFFFFF",
+        "slideshow_background": "#ffffff",
         "slideshow_background_gradient": "",
         "border_radius": 0,
         "autoplay": true,
@@ -563,10 +563,10 @@
             "link": "",
             "fontsize_btn": 16,
             "button_width": 125,
-            "color_button": "#fff",
+            "color_button": "#ffffff",
             "border_color_button": "#232323",
             "bg_color_button": "#232323",
-            "color_button_hover": "#fff",
+            "color_button_hover": "#ffffff",
             "border_color_button_hover": "#232323",
             "bg_color_button_hover": "#232323"
           }
@@ -591,10 +591,10 @@
             "link": "",
             "fontsize_btn": 16,
             "button_width": 125,
-            "color_button": "#fff",
+            "color_button": "#ffffff",
             "border_color_button": "#232323",
             "bg_color_button": "#232323",
-            "color_button_hover": "#fff",
+            "color_button_hover": "#ffffff",
             "border_color_button_hover": "#232323",
             "bg_color_button_hover": "#232323"
           }
@@ -619,10 +619,10 @@
             "link": "",
             "fontsize_btn": 16,
             "button_width": 125,
-            "color_button": "#fff",
+            "color_button": "#ffffff",
             "border_color_button": "#232323",
             "bg_color_button": "#232323",
-            "color_button_hover": "#fff",
+            "color_button_hover": "#ffffff",
             "border_color_button_hover": "#232323",
             "bg_color_button_hover": "#232323"
           }
