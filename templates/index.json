@@ -1007,7 +1007,7 @@
         "enable_minus_mg_top": false,
         "minus_spacing_top": -100,
         "product_block_layout": "grid",
-        "product_bg": "#fff",
+        "product_bg": "#f5f2ee",
         "product_bg_gradient": "",
         "product_block_collection": "collection-two",
         "product_block_limit": 6,
@@ -1298,7 +1298,7 @@
       "settings": {
         "container": "fullwidth",
         "padding_full_width": 0,
-        "background": "#fff",
+        "background": "#f5f2ee",
         "background_gradient": "",
         "enable_center_mode": true,
         "heading": "",
