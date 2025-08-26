@@ -323,7 +323,7 @@
             "category_handle": "category",
             "collection_handle": "collection-two",
             "category_link": "",
-            "is_active": false
+            "is_active": true
           }
         },
         "category_8bifRL": {
@@ -345,7 +345,7 @@
       "settings": {
         "show_navigation_arrows": true,
         "show_dots": false,
-        "padding_top": 36,
+        "padding_top": 52,
         "padding_bottom": 36
       }
     },
@@ -664,14 +664,14 @@
         "fontsize_title": 28,
         "fontsize_title_mb": 22,
         "margin_bottom_title": 45,
-        "spotlight_block_des": "TRhid",
+        "spotlight_block_des": "",
         "color_des": "#3c3c3c",
         "margin_bottom_des": 30,
         "fontsize_des": 16,
         "title_align": "center",
         "view_all_style": "style_1",
-        "view_all": "",
-        "view_all_fs": 12,
+        "view_all": "VIEW ALL",
+        "view_all_fs": 17,
         "view_all_align": "center",
         "font_weight_view_all": "400",
         "mg_bottom_view": 30,
