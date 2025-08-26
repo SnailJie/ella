@@ -295,7 +295,7 @@
       "settings": {
         "title": "New Arrivals",
         "subtitle": "Discover our latest  collection",
-        "collection": "fall",
+        "collection": "collection-three",
         "product_limit": 4,
         "show_arrows": true,
         "show_dots": true,
