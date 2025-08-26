@@ -15,7 +15,7 @@
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
-            "image_slide": "shopify://shop_images/organized-workspace.jpg",
+            "image_slide": "shopify://shop_images/105.webp",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
@@ -75,7 +75,7 @@
             "line_height_heading_mb": 24,
             "heading_spacing_bottom_mb": 8,
             "color_heading_mb": "#ffffff",
-            "slide-des-mb": "Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus meleifend menean diverra loremous.",
+            "slide-des-mb": "",
             "font_size_des_mb": 12,
             "des_spacing_bottom_mb": 35,
             "color_des_mb": "#ffffff",
