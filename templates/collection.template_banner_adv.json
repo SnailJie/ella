@@ -95,6 +95,7 @@
       "blocks": {
         "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "heading": "Categories",
             "type": "1_level",
@@ -103,6 +104,7 @@
         },
         "ce351101-2c54-4627-b740-b2c592067b4a": {
           "type": "filter",
+          "disabled": true,
           "settings": {
             "heading": "Size",
             "list_tags": "X,XS,L,M"
@@ -142,6 +144,7 @@
         },
         "fab1b7dd-3875-46c2-9175-0bcb1ff322a9": {
           "type": "filter",
+          "disabled": true,
           "settings": {
             "heading": "Color",
             "list_tags": "Gray,Blue,Black"
@@ -431,6 +434,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/3.webp",
             "title_align": "center",
             "enable_absolute": true,
             "align_items": "bottom",
@@ -484,6 +488,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/5.webp",
             "title_align": "center",
             "enable_absolute": true,
             "align_items": "bottom",
@@ -537,6 +542,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/1.webp",
             "title_align": "center",
             "enable_absolute": true,
             "align_items": "bottom",
@@ -727,6 +733,7 @@
     },
     "product-recently-viewed": {
       "type": "product-recently-viewed",
+      "disabled": true,
       "settings": {
         "display_product_recently_viewed": true,
         "product_recently_viewed_container": "1770",
