@@ -409,10 +409,10 @@
         "style_bg": "none",
         "bg_color": "",
         "bg_color_gradient": "",
-        "mg_top_desktop": 50,
+        "mg_top_desktop": 20,
         "mg_top_tablet": 50,
         "mg_top_mobile": 50,
-        "mg_bottom_desktop": 50,
+        "mg_bottom_desktop": 0,
         "mg_bottom_tablet": 50,
         "mg_bottom_mobile": 50
       }
@@ -519,6 +519,177 @@
         "mg_bottom_desktop": 20,
         "mg_bottom_tablet": 20,
         "mg_bottom_mobile": 20
+      }
+    },
+    "new_arrivals_jewelry_d6ByHn": {
+      "type": "new-arrivals-jewelry",
+      "name": "New Arrivals Jewelry",
+      "settings": {
+        "title": "New Arrivals",
+        "subtitle": "Discover our latest  collection",
+        "collection": "collection-two",
+        "product_limit": 7,
+        "show_arrows": true,
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "bg_color": "#f5f2ee",
+        "text_color": "#333333",
+        "accent_color": "#d4af37",
+        "mg_top_desktop": 0,
+        "mg_bottom_desktop": 0,
+        "mg_top_tablet": 35,
+        "mg_bottom_tablet": 60,
+        "mg_top_mobile": 40,
+        "mg_bottom_mobile": 40
+      }
+    },
+    "multilayer_image_MdhakY": {
+      "type": "multilayer-image",
+      "blocks": {
+        "image_dzr4JW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.webp",
+            "text": "",
+            "font_size_text": 16,
+            "font_size_text_mb": 16,
+            "mg_bottom_text": 0,
+            "font_weight_text": "500",
+            "font_style_text": "normal",
+            "color_text": "#232323",
+            "description": "",
+            "font_size_des": 16,
+            "font_size_des_mb": 14,
+            "mg_bottom_des": 0,
+            "color_des": "#232323",
+            "button": "More",
+            "link": "",
+            "fontsize_btn": 16,
+            "button_width": 125,
+            "color_button": "#ffffff",
+            "border_color_button": "#232323",
+            "bg_color_button": "#232323",
+            "color_button_hover": "#ffffff",
+            "border_color_button_hover": "#232323",
+            "bg_color_button_hover": "#232323"
+          }
+        },
+        "image_y7hw8e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.webp",
+            "text": "",
+            "font_size_text": 16,
+            "font_size_text_mb": 16,
+            "mg_bottom_text": 0,
+            "font_weight_text": "500",
+            "font_style_text": "normal",
+            "color_text": "#232323",
+            "description": "",
+            "font_size_des": 16,
+            "font_size_des_mb": 14,
+            "mg_bottom_des": 0,
+            "color_des": "#232323",
+            "button": "Learn More",
+            "link": "",
+            "fontsize_btn": 16,
+            "button_width": 125,
+            "color_button": "#ffffff",
+            "border_color_button": "#232323",
+            "bg_color_button": "#232323",
+            "color_button_hover": "#ffffff",
+            "border_color_button_hover": "#232323",
+            "bg_color_button_hover": "#232323"
+          }
+        },
+        "image_exxCa7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.webp",
+            "text": "",
+            "font_size_text": 16,
+            "font_size_text_mb": 16,
+            "mg_bottom_text": 0,
+            "font_weight_text": "500",
+            "font_style_text": "normal",
+            "color_text": "#232323",
+            "description": "",
+            "font_size_des": 16,
+            "font_size_des_mb": 14,
+            "mg_bottom_des": 0,
+            "color_des": "#232323",
+            "button": "Learn More",
+            "link": "",
+            "fontsize_btn": 16,
+            "button_width": 125,
+            "color_button": "#ffffff",
+            "border_color_button": "#232323",
+            "bg_color_button": "#232323",
+            "color_button_hover": "#ffffff",
+            "border_color_button_hover": "#232323",
+            "bg_color_button_hover": "#232323"
+          }
+        },
+        "image_R4T4KB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.webp",
+            "text": "",
+            "font_size_text": 16,
+            "font_size_text_mb": 16,
+            "mg_bottom_text": 0,
+            "font_weight_text": "500",
+            "font_style_text": "normal",
+            "color_text": "#232323",
+            "description": "",
+            "font_size_des": 16,
+            "font_size_des_mb": 14,
+            "mg_bottom_des": 0,
+            "color_des": "#232323",
+            "button": "Learn More",
+            "link": "",
+            "fontsize_btn": 16,
+            "button_width": 125,
+            "color_button": "#ffffff",
+            "border_color_button": "#232323",
+            "bg_color_button": "#232323",
+            "color_button_hover": "#ffffff",
+            "border_color_button_hover": "#232323",
+            "bg_color_button_hover": "#232323"
+          }
+        }
+      },
+      "block_order": [
+        "image_dzr4JW",
+        "image_y7hw8e",
+        "image_exxCa7",
+        "image_R4T4KB"
+      ],
+      "name": "t:sections.multilayer-image.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "background": "#f5f2ee",
+        "background_gradient": "",
+        "heading": "FEATURE",
+        "font_style_heading": "oblique",
+        "font_size_heading": 40,
+        "font_size_heading_mb": 40,
+        "color_heading": "#232323",
+        "description": "",
+        "font_size_des": 12,
+        "font_size_des_mb": 22,
+        "color_des": "#232323",
+        "spacing_bottom": 40,
+        "item_border_radius": 0,
+        "items_spacing": 25,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
       }
     },
     "spotlight_block_fyEgQ3": {
@@ -771,177 +942,6 @@
         "mg_bottom_mobile": 50
       }
     },
-    "multilayer_image_MdhakY": {
-      "type": "multilayer-image",
-      "blocks": {
-        "image_dzr4JW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4.webp",
-            "text": "",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "500",
-            "font_style_text": "normal",
-            "color_text": "#232323",
-            "description": "",
-            "font_size_des": 16,
-            "font_size_des_mb": 14,
-            "mg_bottom_des": 0,
-            "color_des": "#232323",
-            "button": "More",
-            "link": "",
-            "fontsize_btn": 16,
-            "button_width": 125,
-            "color_button": "#ffffff",
-            "border_color_button": "#232323",
-            "bg_color_button": "#232323",
-            "color_button_hover": "#ffffff",
-            "border_color_button_hover": "#232323",
-            "bg_color_button_hover": "#232323"
-          }
-        },
-        "image_y7hw8e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3.webp",
-            "text": "",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "500",
-            "font_style_text": "normal",
-            "color_text": "#232323",
-            "description": "",
-            "font_size_des": 16,
-            "font_size_des_mb": 14,
-            "mg_bottom_des": 0,
-            "color_des": "#232323",
-            "button": "Learn More",
-            "link": "",
-            "fontsize_btn": 16,
-            "button_width": 125,
-            "color_button": "#ffffff",
-            "border_color_button": "#232323",
-            "bg_color_button": "#232323",
-            "color_button_hover": "#ffffff",
-            "border_color_button_hover": "#232323",
-            "bg_color_button_hover": "#232323"
-          }
-        },
-        "image_exxCa7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1.webp",
-            "text": "",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "500",
-            "font_style_text": "normal",
-            "color_text": "#232323",
-            "description": "",
-            "font_size_des": 16,
-            "font_size_des_mb": 14,
-            "mg_bottom_des": 0,
-            "color_des": "#232323",
-            "button": "Learn More",
-            "link": "",
-            "fontsize_btn": 16,
-            "button_width": 125,
-            "color_button": "#ffffff",
-            "border_color_button": "#232323",
-            "bg_color_button": "#232323",
-            "color_button_hover": "#ffffff",
-            "border_color_button_hover": "#232323",
-            "bg_color_button_hover": "#232323"
-          }
-        },
-        "image_R4T4KB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/5.webp",
-            "text": "",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "500",
-            "font_style_text": "normal",
-            "color_text": "#232323",
-            "description": "",
-            "font_size_des": 16,
-            "font_size_des_mb": 14,
-            "mg_bottom_des": 0,
-            "color_des": "#232323",
-            "button": "Learn More",
-            "link": "",
-            "fontsize_btn": 16,
-            "button_width": 125,
-            "color_button": "#ffffff",
-            "border_color_button": "#232323",
-            "bg_color_button": "#232323",
-            "color_button_hover": "#ffffff",
-            "border_color_button_hover": "#232323",
-            "bg_color_button_hover": "#232323"
-          }
-        }
-      },
-      "block_order": [
-        "image_dzr4JW",
-        "image_y7hw8e",
-        "image_exxCa7",
-        "image_R4T4KB"
-      ],
-      "name": "t:sections.multilayer-image.name",
-      "settings": {
-        "container": "container",
-        "padding_full_width": 0,
-        "background": "#f5f2ee",
-        "background_gradient": "",
-        "heading": "FEATURE",
-        "font_style_heading": "oblique",
-        "font_size_heading": 40,
-        "font_size_heading_mb": 40,
-        "color_heading": "#232323",
-        "description": "",
-        "font_size_des": 12,
-        "font_size_des_mb": 22,
-        "color_des": "#232323",
-        "spacing_bottom": 40,
-        "item_border_radius": 0,
-        "items_spacing": 25,
-        "mg_top_desktop": 50,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
-        "mg_bottom_desktop": 50,
-        "mg_bottom_tablet": 50,
-        "mg_bottom_mobile": 50
-      }
-    },
-    "new_arrivals_jewelry_d6ByHn": {
-      "type": "new-arrivals-jewelry",
-      "name": "New Arrivals Jewelry",
-      "settings": {
-        "title": "New Arrivals",
-        "subtitle": "Discover our latest  collection",
-        "collection": "collection-two",
-        "product_limit": 7,
-        "show_arrows": true,
-        "show_dots": true,
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "bg_color": "#f5f2ee",
-        "text_color": "#333333",
-        "accent_color": "#d4af37",
-        "mg_top_desktop": 0,
-        "mg_bottom_desktop": 0,
-        "mg_top_tablet": 35,
-        "mg_bottom_tablet": 60,
-        "mg_top_mobile": 40,
-        "mg_bottom_mobile": 40
-      }
-    },
     "product_category_gallery_EyLTD6": {
       "type": "product-category-gallery",
       "blocks": {
@@ -970,6 +970,7 @@
         "category_gGnwNT",
         "category_8bifRL"
       ],
+      "disabled": true,
       "name": "Product Category Gallery",
       "settings": {
         "show_navigation_arrows": true,
@@ -1091,6 +1092,88 @@
         "product_space_between_horiz_mb": 30
       }
     },
+    "customer_testimonial_cx3kM6": {
+      "type": "customer-testimonial",
+      "blocks": {
+        "testimonial_hkYn9Y": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/LushGreen-ErsaNailsPressOnNails_1.webp",
+            "content_bg": "#0D6263",
+            "content": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
+            "fontsize_content": 16,
+            "fontsize_content_mb": 14,
+            "content_color": "#fff",
+            "button": "Learn more",
+            "link": "",
+            "button_color": "#fff",
+            "button_color_hover": "#fff"
+          }
+        },
+        "testimonial_jCGRiV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Yinyang-ErsaNailsPressOnNails_1.webp",
+            "content_bg": "#0D6263",
+            "content": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
+            "fontsize_content": 16,
+            "fontsize_content_mb": 14,
+            "content_color": "#fff",
+            "button": "Learn more",
+            "link": "",
+            "button_color": "#fff",
+            "button_color_hover": "#fff"
+          }
+        },
+        "testimonial_MpCeJC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Lucid_Dream_-_ErsaNails_PressOnNails_1_1.webp",
+            "content_bg": "#0D6263",
+            "content": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
+            "fontsize_content": 16,
+            "fontsize_content_mb": 14,
+            "content_color": "#fff",
+            "button": "Learn more",
+            "link": "",
+            "button_color": "#fff",
+            "button_color_hover": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_hkYn9Y",
+        "testimonial_jCGRiV",
+        "testimonial_MpCeJC"
+      ],
+      "name": "t:sections.customer_testimonial.presets.name",
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "background": "#fff",
+        "background_gradient": "",
+        "enable_center_mode": true,
+        "heading": "",
+        "color_heading": "#232323",
+        "font_style_heading": "normal",
+        "font_size_heading": 40,
+        "font_size_heading_mb": 40,
+        "mg_bottom_heading": 0,
+        "view_all": "",
+        "link_view_all": "",
+        "enable_border_view_all": true,
+        "view_all_fs": 16,
+        "mg_bottom_view": 30,
+        "color_view_all": "#3c3c3c",
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
     "newsletter_verdura_QdBXfA": {
       "type": "newsletter-verdura",
       "name": "Newsletter Verdura",
@@ -1113,11 +1196,12 @@
     "16321237356a896dad",
     "image_banner_LaEx6X",
     "marquee_hANGWA",
-    "spotlight_block_fyEgQ3",
-    "multilayer_image_MdhakY",
     "new_arrivals_jewelry_d6ByHn",
+    "multilayer_image_MdhakY",
+    "spotlight_block_fyEgQ3",
     "product_category_gallery_EyLTD6",
     "main_menu_from_collection",
+    "customer_testimonial_cx3kM6",
     "newsletter_verdura_QdBXfA"
   ]
 }
