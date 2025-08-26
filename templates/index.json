@@ -546,7 +546,7 @@
         "image_dzr4JW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2.webp",
+            "image": "shopify://shop_images/4.webp",
             "text": "",
             "font_size_text": 16,
             "font_size_text_mb": 16,
@@ -626,18 +626,47 @@
             "border_color_button_hover": "#232323",
             "bg_color_button_hover": "#232323"
           }
+        },
+        "image_R4T4KB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.webp",
+            "text": "",
+            "font_size_text": 16,
+            "font_size_text_mb": 16,
+            "mg_bottom_text": 0,
+            "font_weight_text": "500",
+            "font_style_text": "normal",
+            "color_text": "#232323",
+            "description": "",
+            "font_size_des": 16,
+            "font_size_des_mb": 14,
+            "mg_bottom_des": 0,
+            "color_des": "#232323",
+            "button": "Learn More",
+            "link": "",
+            "fontsize_btn": 16,
+            "button_width": 125,
+            "color_button": "#ffffff",
+            "border_color_button": "#232323",
+            "bg_color_button": "#232323",
+            "color_button_hover": "#ffffff",
+            "border_color_button_hover": "#232323",
+            "bg_color_button_hover": "#232323"
+          }
         }
       },
       "block_order": [
         "image_dzr4JW",
         "image_y7hw8e",
-        "image_exxCa7"
+        "image_exxCa7",
+        "image_R4T4KB"
       ],
       "name": "t:sections.multilayer-image.name",
       "settings": {
         "container": "container",
         "padding_full_width": 0,
-        "background": "#fff",
+        "background": "#f5f2ee",
         "background_gradient": "",
         "heading": "FEATURE",
         "font_style_heading": "oblique",
@@ -665,8 +694,8 @@
       "settings": {
         "title": "New Arrivals",
         "subtitle": "Discover our latest  collection",
-        "collection": "collection-three",
-        "product_limit": 5,
+        "collection": "collection-two",
+        "product_limit": 7,
         "show_arrows": true,
         "show_dots": true,
         "autoplay": false,
