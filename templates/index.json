@@ -981,20 +981,6 @@
     },
     "product_block_kADUFi": {
       "type": "product-block",
-      "blocks": {
-        "collections_dgyyyg": {
-          "type": "collections",
-          "settings": {
-            "image_collections": "shopify://shop_images/LushGreen-ErsaNailsPressOnNails_1.webp",
-            "text_collections": "",
-            "button_text_collections": "",
-            "button_link_collections": ""
-          }
-        }
-      },
-      "block_order": [
-        "collections_dgyyyg"
-      ],
       "name": "t:sections.product_block.presets.name",
       "settings": {
         "container": "container",
