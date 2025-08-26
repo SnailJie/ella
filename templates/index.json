@@ -17,7 +17,7 @@
           "settings": {
             "image_slide": "shopify://shop_images/zx.png",
             "alignment": "left",
-            "enable_custom_position": false,
+            "enable_custom_position": true,
             "custom_horizontal": "40",
             "custom_vertical": "30",
             "custom_vertical_mb": "",
@@ -27,7 +27,7 @@
             "content_width": 750,
             "text_alignment": "center",
             "text_alignment_mb": "center",
-            "enable_content_fullwidth": false,
+            "enable_content_fullwidth": true,
             "border_color_content": "",
             "bg_color_content": "",
             "profile_spacing_bottom": 50,
@@ -116,6 +116,9 @@
       "block_order": [
         "16321237356a896dad-0"
       ],
+      "custom_css": [
+        ".container-1170 {max-width: auto;}"
+      ],
       "settings": {
         "container": "1170",
         "padding_full_width": 0,
@@ -130,7 +133,7 @@
         "dots_border_color": "#707979",
         "dots_active_color": "rgba(0,0,0,0)",
         "dots_active_border_color": "#505656",
-        "dots_direction": "bottom",
+        "dots_direction": "left",
         "dots_shape": "disc",
         "position_slick_dots": "25px",
         "dots_opacity": false,
