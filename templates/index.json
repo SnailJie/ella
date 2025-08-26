@@ -24,7 +24,7 @@
             "enable_position_outside_image": false,
             "enable_border_line": false,
             "padding_vertical": 20,
-            "content_width": 475,
+            "content_width": 750,
             "text_alignment": "center",
             "text_alignment_mb": "center",
             "enable_content_fullwidth": false,
