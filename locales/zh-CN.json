@@ -22,7 +22,7 @@
       "your_location": "您的位置",
       "add_content": "在这里添加您的个人介绍内容...",
       "skill_1": "技能 1",
-      "skill_2": "技能 2", 
+      "skill_2": "技能 2",
       "skill_3": "技能 3",
       "job_title": "职位名称",
       "company_name": "公司名称",
@@ -43,7 +43,7 @@
       "video": "点击观看视频",
       "video_alt": "视频说明",
       "scroll_down": "向下滚动",
-      "lang_cur": "语言\/货币侧边栏"
+      "lang_cur": "语言/货币侧边栏"
     },
     "password_page": {
       "login_form_heading": "使用密码进入商店：",
@@ -53,7 +53,7 @@
       "login_form_error": "密码错误！",
       "login_form_submit": "进入",
       "modal": "密码窗口",
-      "admin_link_html": "您是商店拥有者吗？<a href=\"\/admin\" class=\"link underlined-link\">在此登入<\/a>",
+      "admin_link_html": "您是商店拥有者吗？<a href=\"/admin\" class=\"link underlined-link\">在此登入</a>",
       "powered_by_shopify_html": "本商店由 {{ shopify }} 提供技术支持",
       "label": "抢先体验登录",
       "label_2": "抢先体验登录*",
@@ -83,7 +83,7 @@
         "whatsapp": "WhatsApp"
       }
     },
-    "continue_shopping": "继续购物",  
+    "continue_shopping": "继续购物",
     "back_to_previous_page": "返回上一页",
     "pagination": {
       "label": "分页",
@@ -141,8 +141,8 @@
       "total": "总计：",
       "coupon_code_text": "优惠券代码将在结账页面应用",
       "estimate_shipping": "估计运费",
-      "country": "国家\/地区",
-      "state": "州\/地区",
+      "country": "国家/地区",
+      "state": "州/地区",
       "zip_code": "邮递区号",
       "postal_code": "邮递区号",
       "enter_coupo_code": "输入优惠券代码",
@@ -280,7 +280,7 @@
         "multiples_of": "增量为{{ quantity }}",
         "min_of": "最小{{ quantity }}",
         "max_of": "最大{{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in cart",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in cart",
         "note": "查看数量规则"
       },
       "volume_pricing": {
@@ -294,13 +294,13 @@
         "view_store_info": "查看商店信息",
         "check_other_stores": "检查其他商店的可用性",
         "pick_up_available": "取货可用",
-        "pick_up_available_at_html": "取货可用於<span class=\"strong\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "取货目前不可用於<span class=\"strong\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "取货可用於<span class=\"strong\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "取货目前不可用於<span class=\"strong\">{{ location_name }}</span>",
         "unavailable": "无法加载取货可用性",
         "refresh": "刷新"
       },
       "price": {
-        "from_price_html": "<span class=\"text\">从<\/span> {{ price }}",
+        "from_price_html": "<span class=\"text\">从</span> {{ price }}",
         "regular_price": "原价",
         "sale_price": "促销价",
         "unit_price": "单价",
@@ -381,6 +381,12 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "哎呀！页面未找到",
+      "subtext": "404",
+      "description": "对不起！您正在寻找的页面已经离线了！",
+      "button": "返回商店"
+    },
     "search": {
       "no_results": "没有找到“{{ terms }}”的结果。检查拼写或使用不同的单词或词组。",
       "search_result_title_2": "有{{ count }}页和文章“{{ terms }}”",
@@ -418,12 +424,6 @@
         "post_success": "感谢联系我们。我们会尽快回复。",
         "error_heading": "请调整以下内容："
       }
-    },
-    "404": {
-      "title": "哎呀！页面未找到",
-      "subtext": "404",
-      "description": "对不起！您正在寻找的页面已经离线了！",
-      "button": "返回商店"
     }
   },
   "faqs": {
@@ -475,17 +475,17 @@
       "cart_quantity_error_alert": "您只能添加{{maxQuantity}}的这项产品到您的购物车",
       "cart_quantity_error_alert_2": "这项产品的数量不足。",
       "quick_cart": "快速购物车",
-      "taxes_and_shipping_policy_at_checkout_html": "税金和<a href=\"{{ link }}\">运费<\/a>将在结账时计算",
+      "taxes_and_shipping_policy_at_checkout_html": "税金和<a href=\"{{ link }}\">运费</a>将在结账时计算",
       "taxes_included_but_shipping_at_checkout": "税金包含，运费在结账时计算",
-      "taxes_included_and_shipping_policy_html": "税金包含。 <a href=\"{{ link }}\">运费<\/a>在结账时计算。",
+      "taxes_included_and_shipping_policy_html": "税金包含。 <a href=\"{{ link }}\">运费</a>在结账时计算。",
       "taxes_and_shipping_at_checkout": "税金和运费在结账时计算",
       "taxes_included_shipping_at_checkout_without_policy": "税金包含。折扣和运费在结账时计算。",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "关税和税金包含。折扣和<a href=\"{{ link }}\">运费<\/a>在结账时计算。",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "关税和税金包含。折扣和<a href=\"{{ link }}\">运费</a>在结账时计算。",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "关税和税金包含。折扣和运费在结账时计算。",
-      "taxes_included_shipping_at_checkout_with_policy_html": "税金包含。折扣和<a href=\"{{ link }}\">运费<\/a>在结账时计算。",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "关税包含。税金、折扣和<a href=\"{{ link }}\">运费<\/a>在结账时计算。",
+      "taxes_included_shipping_at_checkout_with_policy_html": "税金包含。折扣和<a href=\"{{ link }}\">运费</a>在结账时计算。",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "关税包含。税金、折扣和<a href=\"{{ link }}\">运费</a>在结账时计算。",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "关税包含。税金、折扣和运费在结账时计算。",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "税金、折扣和<a href=\"{{ link }}\">运费<\/a>在结账时计算。",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "税金、折扣和<a href=\"{{ link }}\">运费</a>在结账时计算。",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "税金、折扣和运费在结账时计算。",
       "headings": {
         "product": "产品",
@@ -552,7 +552,7 @@
       "sort_by_label": "排序",
       "title": "集合",
       "to": "到",
-      "use_fewer_filters_html": "使用较少过滤器或 <a class=\"{{ class }}\" href=\"{{ link }}\">清除全部<\/a>",
+      "use_fewer_filters_html": "使用较少过滤器或 <a class=\"{{ class }}\" href=\"{{ link }}\">清除全部</a>",
       "view_as": "查看",
       "image": "图片",
       "product": "产品",
@@ -571,7 +571,7 @@
     "quick_order_list": {
       "product_total": "产品小计",
       "view_cart": "查看购物车",
-      "each": "\/ea",
+      "each": "/ea",
       "product": "产品",
       "variant": "变体",
       "variant_total": "变体总计",
@@ -595,10 +595,10 @@
     }
   },
   "localization": {
-    "country_label": "国家\/地区",
+    "country_label": "国家/地区",
     "language_label": "语言",
     "update_language": "更新语言",
-    "update_country": "更新国家\/地区"
+    "update_country": "更新国家/地区"
   },
   "currency": {
     "change_text": "商店的货币已更改为",
@@ -634,9 +634,9 @@
       "address1": "地址1",
       "address2": "地址2",
       "city": "城市",
-      "country": "国家\/地区",
+      "country": "国家/地区",
       "province": "省",
-      "zip": "邮政\/邮编",
+      "zip": "邮政/邮编",
       "phone": "电话",
       "set_default": "设为默认地址",
       "add": "添加地址",
@@ -815,10 +815,10 @@
   "notify_form": {
     "general": {
       "label": "通知我",
-      "title": "留下您的电子邮件，我们将在产品\/变体重新上架时通知您",
+      "title": "留下您的电子邮件，我们将在产品/变体重新上架时通知您",
       "placeholder": "插入您的电子邮件",
       "submit": "订阅",
-      "success": "谢谢！我们已收到您的请求，当产品\/变体重新上架时会尽快通知您！",
+      "success": "谢谢！我们已收到您的请求，当产品/变体重新上架时会尽快通知您！",
       "error": "请使用有效的电子邮件地址，例如john@example.com。"
     }
   },
@@ -869,7 +869,7 @@
   "compare_color": {
     "general": {
       "title": "比较颜色",
-      "text": "点击颜色\/图案以比较，点击并拖动图片以重新排序"
+      "text": "点击颜色/图案以比较，点击并拖动图片以重新排序"
     }
   },
   "lookbook": {
@@ -900,6 +900,51 @@
       "max_characters": "{{ max_chars }} 字元最大",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "送出日期（可选）"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
