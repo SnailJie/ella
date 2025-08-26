@@ -306,7 +306,7 @@
         "text_color": "#333333",
         "accent_color": "#d4af37",
         "mg_top_desktop": 0,
-        "mg_bottom_desktop": 40,
+        "mg_bottom_desktop": 0,
         "mg_top_tablet": 35,
         "mg_bottom_tablet": 60,
         "mg_top_mobile": 40,
@@ -320,7 +320,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/Aurora_sTouch-ErsaNailsPressOnNails_3_2048x2048_05abf3db-4ad8-4863-b369-d887f40dc16b.webp",
+            "image": "shopify://shop_images/LushGreen-ErsaNailsPressOnNails_1.webp",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -428,7 +428,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/Aurora_sTouch-ErsaNailsPressOnNails_3_2048x2048_05abf3db-4ad8-4863-b369-d887f40dc16b.webp",
+            "image": "shopify://shop_images/Lucid_Dream_-_ErsaNails_PressOnNails_1_1.webp",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -505,10 +505,10 @@
         "enable_dots_mb": true,
         "display_border_bottom": false,
         "border_color": "#e3e3e3",
-        "spotlight_bg": "#ffffff",
+        "spotlight_bg": "#f5f2ee",
         "spotlight_bg_gradient": "",
         "enable_custom_position_title": false,
-        "spotlight_block_title": "#Featured On Ella",
+        "spotlight_block_title": "COLLECTIONS",
         "enable_border_title": false,
         "color_title": "#232323",
         "color_title_mb": "",
@@ -571,7 +571,7 @@
           "settings": {
             "category_name": "SUNSHINE",
             "category_handle": "category",
-            "collection_handle": "collection-two",
+            "collection_handle": "collection-three",
             "category_link": "",
             "is_active": true
           }
