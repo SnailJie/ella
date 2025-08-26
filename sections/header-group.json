@@ -30,12 +30,11 @@
       "block_order": [
         "60fe30b1-fa66-4bd9-9d3f-21fc97aa738c"
       ],
-      "disabled": true,
       "settings": {
         "layout": "scroll",
         "enable_close": false,
-        "color_text": "#b05d5d",
-        "bg_color_text": "#ffe8e8",
+        "color_text": "#ffffff",
+        "bg_color_text": "#f5f2ee",
         "bg_color_text_gradient": "",
         "font_size_text": 12,
         "font_style_text": "normal",
